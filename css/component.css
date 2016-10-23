@@ -9,7 +9,7 @@
 	z-index: 1;
 }
 
-.container .large-header {
+.contenedor .large-header {
 	background-image: url('../imgs/2.png');
 }
 
@@ -25,9 +25,9 @@
 	transform: translate3d(-50%,-50%,0);
 }
 
-.container .main-title{
+.contenedor .main-title{
 	text-transform: uppercase;
-	font-size: 4.2em;
+	font-size: 3em;
 	letter-spacing: 0.1em;
 }
 
@@ -36,7 +36,7 @@
 }
 
 @media only screen and (max-width : 768px) {
-	.container .main-title {
-		font-size: 3em;
+	.contenedor .main-title {
+		font-size: 2.5em;
 	}
 }
